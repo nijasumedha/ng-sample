@@ -1,0 +1,4 @@
+<h5 class="message-author-name">{{message.participantName}}</h5>
+<div class="message-time">{{message.timestamp | date :'shortTime'}}</div>
+<div class="message-text"><span [innerHtml]="message.text"></span></div>
+<div><img src="{{message.image}}" class="logo"></div>
